@@ -11,11 +11,13 @@ Security in case of vulnerabilities.
 - Functionality - Activity Diary Notifications
 - UI - Updated SplashScreen
 - UI/UX/Functionality - First time setup flows
-- UI/Functionality – Typeahead options for Activity Name
 - UI/Functionality - Activity Diary Reporting
 - UI/Functionality - Activity Diary Add Additional Information
     - Symptoms (Shopping List)
 - UI – Add app icon to AlarmActivity
+- UI/Functionality – Edit Activity
+- UI/Functionality – View Alarm
+- UI/Functionality – Edit Alarm
 
 ## [Open Bugs]
 - [#NA] Functionality – Issues with Alarms duplicating when being created and overlapping
@@ -36,12 +38,14 @@ Security in case of vulnerabilities.
 - UI - App Launcher Icon
 - UI/Functionality - Activity Diary Add Additional Information
     - Comments (Free Text)
-    - Temperature (Weather API?)
+    - Temperature (Weather API?) 
+- UI/Functionality – Selectable options for Activity Name
+- UI/Functionality – Basic View Activity
 
 ### Changed
 - UI - Application base fonts
 - UI - Activity Diary item layout
-- UI/Functionality – Updated Placeholder Dashboard
+- UI/Functionality – Updated Dashboard
 - UI – New Add Alarm Layout
 
 ### Fixed
@@ -53,6 +57,7 @@ Security in case of vulnerabilities.
 - [#NA] - UI - Locked Item Functionality not displaying in menu
 - [#NA] - Functionality - Locked items dialog notification display
 - [#NA] - UX - Scrolling Issues with SmileyRating implementation
+- [#NA] – UI – Incorrect Theming for Snackbar
 
 ## [0.0.1] - 2018-10-31 (Initial Version)
 ### Added
@@ -62,4 +67,3 @@ Security in case of vulnerabilities.
 
 [Unreleased]: 
 [0.0.1]: 
-
