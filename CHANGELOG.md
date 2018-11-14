@@ -7,21 +7,34 @@ Removed for now removed features.
 Fixed for any bug fixes.
 Security in case of vulnerabilities.
 
-## [Upcoming/ToDo]
-- Functionality - Activity Diary Notifications
+## [Scoped]
+- Functionality - Dynamic content locking based on FACETS commencement date
 - UI/UX/Functionality - First time setup flows
 - UI/Functionality - Activity Diary Reporting
+- Logic – Migrate existing “guest” entries to user on login/register
+- UI – Heatmaps
+
+
+## [Upcoming] (Next Release)
+- Functionality - Activity Diary Notifications
 - UI/Functionality - Activity Diary Add Additional Information
     - Symptoms (Shopping List)
 - UI – Add app icon to AlarmActivity
 - UI/Functionality – Edit Activity
+- UI/Functionality – Copy Activity
 - UI/Functionality – View Alarm
 - UI/Functionality – Edit Alarm
+- UI – Dynamic Dashboard “Welcome Icon”
+- UX – Add Alarm Validation
+- UX – Add Activity Validation
+
 
 ## [Open Bugs]
 - [#NA] Functionality – Issues with Alarms duplicating when being created and overlapping
 - [#NA] Functionality – Activities added between 12AM – 1AM are not displayed
 - [#NA] Functionality – Issues with Alarms being removed when device is rebooted
+- [#NA] UI – Navigation is not updated correctly when navigating “up” (back)
+- [#NA] UI/Functionality – Missing Username on “admin” signup
 
 ## [Unreleased] [0.0.2] (Due 2018-11-15)
 ### Added
@@ -41,6 +54,7 @@ Security in case of vulnerabilities.
     - Temperature
 - UI/Functionality – Selectable options for Activity Name
 - UI/Functionality – Basic View Activity
+- Functionality – Basic Notifications
 
 ### Changed
 - UI - Application base fonts
@@ -67,4 +81,4 @@ Security in case of vulnerabilities.
 
 
 [Unreleased]: 
-[0.0.1]: 
+[0.0.1]:
