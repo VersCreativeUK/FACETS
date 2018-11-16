@@ -13,6 +13,8 @@ Security in case of vulnerabilities.
 - UI/Functionality - Activity Diary Reporting
 - Logic – Migrate existing “guest” entries to user on login/register
 - UI – Heatmaps
+- Functionality - DarkSky API (Retrofit)
+- Logic/Functionality – Alarms vs. Notifications (Rest/Sleep/Wake Planner)
 
 
 ## [Upcoming] (Next Release)
@@ -20,13 +22,17 @@ Security in case of vulnerabilities.
 - UI/Functionality - Activity Diary Add Additional Information
     - Symptoms (Shopping List)
 - UI – Add app icon to AlarmActivity
-- UI/Functionality – Edit Activity
 - UI/Functionality – Copy Activity
 - UI/Functionality – View Alarm
 - UI/Functionality – Edit Alarm
 - UI – Dynamic Dashboard “Welcome Icon”
 - UX – Add Alarm Validation
-- UX – Add Activity Validation
+- Functionality – Develop Dashboard Items
+- Functionality – Develop Dashboard FloatingActionButton
+- UI – Activity List – Change outline squares to filled squares
+- UX – Move Section help to align with Section Title
+- UI – Rename Rest/Sleep Planner to Rest/Sleep/Wake Routine
+- UI – Change Rest/Sleep Planner to Tabs to separate new Rest and Sleep/Wake layout
 
 
 ## [Open Bugs]
@@ -55,13 +61,17 @@ Security in case of vulnerabilities.
 - UI/Functionality – Selectable options for Activity Name
 - UI/Functionality – Basic View Activity
 - Functionality – Basic Notifications
+- UI/Functionality – Edit Activity
+
 
 ### Changed
 - UI - Application base fonts
 - UI - Activity Diary item layout
 - UI/Functionality – Updated Dashboard
-- UI – New Add Alarm Layout
+- UI – Updated Add Alarm Layout
 - UI - Updated Splash Screen
+- UX – Add Activity Validation
+
 
 ### Fixed
 - [#1](https://github.com/VersCreativeUK/FACETS/issues/1) - UI - Available date issues with ActivityDiary and CollapsibleCalendarView
@@ -81,4 +91,5 @@ Security in case of vulnerabilities.
 
 
 [Unreleased]: 
-[0.0.1]:
+[0.0.1]: 
+[0.0.2]:
