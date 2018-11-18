@@ -36,11 +36,11 @@ Security in case of vulnerabilities.
 
 
 ## [Open Bugs]
-- [#NA] Functionality – Issues with Alarms duplicating when being created and overlapping
-- [#NA] Functionality – Activities added between 12AM – 1AM are not displayed
-- [#NA] Functionality – Issues with Alarms being removed when device is rebooted
-- [#NA] UI – Navigation is not updated correctly when navigating “up” (back)
-- [#NA] UI/Functionality – Missing Username on “admin” signup
+- [#9](https://github.com/VersCreativeUK/FACETS/issues/9) Functionality – Issues with Alarms duplicating when being created and overlapping
+- [#10](https://github.com/VersCreativeUK/FACETS/issues/10) Functionality – Activities added between 12AM – 1AM are not displayed
+- [#11](https://github.com/VersCreativeUK/FACETS/issues/11) Functionality – Issues with Alarms being removed when device is rebooted
+- [#12](https://github.com/VersCreativeUK/FACETS/issues/12) UI – Navigation is not updated correctly when navigating “up” (back)
+- [#13](https://github.com/VersCreativeUK/FACETS/issues/13) UI/Functionality – Missing Username on “admin” signup
 
 ## [Unreleased] [0.0.2] (Due 2018-11-15)
 ### Added
@@ -76,13 +76,12 @@ Security in case of vulnerabilities.
 ### Fixed
 - [#1](https://github.com/VersCreativeUK/FACETS/issues/1) - UI - Available date issues with ActivityDiary and CollapsibleCalendarView
 - [#2](https://github.com/VersCreativeUK/FACETS/issues/2) UI - Navigation Logic when switching between homework elements
-- [#NA] UX - Issues with Ringtone preview & selection on certain devices
-- [#NA] UX - Interaction issues with Activity List and Navigation Drawer
-- [#NA] Functionality/UX - Data integrity & portability breaking UI when device is offline
-- [#NA] UI - Locked Item Functionality not displaying in menu
-- [#NA] Functionality - Locked items dialog notification display
-- [#NA] UX - Scrolling Issues with SmileyRating implementation
-- [#NA] UI – Incorrect Theming for Snackbar
+- [#3](https://github.com/VersCreativeUK/FACETS/issues/3) UX - Issues with Ringtone preview & selection on certain devices
+- [#4](https://github.com/VersCreativeUK/FACETS/issues/4) UX - Interaction issues with Activity List and Navigation Drawer
+- [#5](https://github.com/VersCreativeUK/FACETS/issues/5) Functionality/UX - Data integrity & portability breaking UI when device is offline
+- [#6](https://github.com/VersCreativeUK/FACETS/issues/6) UI - Locked Item Functionality not displaying in menu & items dialog notification display
+- [#7](https://github.com/VersCreativeUK/FACETS/issues/7) UX - Scrolling Issues with SmileyRating implementation
+- [#8](https://github.com/VersCreativeUK/FACETS/issues/8) UI – Incorrect Theming for Snackbar
 
 ## [0.0.1] - 2018-10-31 (Initial Version)
 ### Added
@@ -93,3 +92,4 @@ Security in case of vulnerabilities.
 [Unreleased]: 
 [0.0.1]: 
 [0.0.2]:
+
