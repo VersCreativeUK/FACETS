@@ -42,7 +42,9 @@ Security in case of vulnerabilities.
 - [#12](https://github.com/VersCreativeUK/FACETS/issues/12) UI – Navigation is not updated correctly when navigating “up” (back)
 - [#13](https://github.com/VersCreativeUK/FACETS/issues/13) UI/Functionality – Missing Username on “admin” signup
 
-## [Unreleased] [0.0.2] (Due 2018-11-15)
+## [Unreleased]
+
+## [0.0.2]
 ### Added
 - Functionality - Rest/Sleep Planner
     - Add Alarm
