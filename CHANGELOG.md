@@ -91,7 +91,3 @@ TBD
 - Initial Activity Diary
 - Initial Navigation
 
-
-[Unreleased]: 
-[0.0.1]: 
-[0.0.2]: 
