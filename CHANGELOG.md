@@ -28,7 +28,6 @@ Security in case of vulnerabilities.
 - UI/Functionality – Edit Alarm
 - UI – Dynamic Dashboard “Welcome Icon”
 - Functionality – Develop Dashboard Items
-- Functionality – Develop Dashboard FloatingActionButton
 
 
 ## [Open Bugs]
@@ -39,7 +38,11 @@ Security in case of vulnerabilities.
 - [#13](https://github.com/VersCreativeUK/FACETS/issues/13) UI/Functionality – Missing Username on “admin” signup
 
 ## [Unreleased] [0.0.3] (Due 2018-11-29)
-TBC
+### Added
+- Functionality/UI – New Dashboard FloatingActionButton and Add Menu
+
+### Changed
+- UI – Updated View Activity Layout
 
 ## [0.0.2a] – 2018-11-21
 ### Added
@@ -49,7 +52,7 @@ TBC
 ### Changed
 - UI – Rest/Sleep Planner has been renamed to Rest/Sleep/Wake Routine
 - UI – Rest/Sleep/Wake Routine Layout is now tabular in order to separate new rest and sleep/wake
-- UI/UX –Section help moved to align with Section Title
+- UI/UX – Section help moved to align with Section Title
 - UI – Activity List – Updated Colour Codes to filled squares
 
 
