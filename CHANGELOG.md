@@ -15,6 +15,7 @@ Security in case of vulnerabilities.
 - UI – Heatmaps
 - Functionality - DarkSky API (Retrofit)
 - Logic/Functionality – Alarms vs. Notifications (Rest/Sleep/Wake Planner)
+- UI – New/Alternative Colour Scheme
 
 
 ## [Upcoming] (Next Release)
@@ -26,13 +27,8 @@ Security in case of vulnerabilities.
 - UI/Functionality – View Alarm
 - UI/Functionality – Edit Alarm
 - UI – Dynamic Dashboard “Welcome Icon”
-- UX – Add Alarm Validation
 - Functionality – Develop Dashboard Items
 - Functionality – Develop Dashboard FloatingActionButton
-- UI – Activity List – Change outline squares to filled squares
-- UX – Move Section help to align with Section Title
-- UI – Rename Rest/Sleep Planner to Rest/Sleep/Wake Routine
-- UI – Change Rest/Sleep Planner to Tabs to separate new Rest and Sleep/Wake layout
 
 
 ## [Open Bugs]
@@ -42,10 +38,27 @@ Security in case of vulnerabilities.
 - [#12](https://github.com/VersCreativeUK/FACETS/issues/12) UI – Navigation is not updated correctly when navigating “up” (back)
 - [#13](https://github.com/VersCreativeUK/FACETS/issues/13) UI/Functionality – Missing Username on “admin” signup
 
-## [Unreleased]
-TBD
+## [Unreleased] [0.0.3] (Due 2018-11-29)
+TBC
 
-## [0.0.2]
+## [0.0.2a] – 2018-11-21
+### Added
+- Functionality/UX – Text to Speech
+- UX – Add Alarm Validation
+
+### Changed
+- UI – Rest/Sleep Planner has been renamed to Rest/Sleep/Wake Routine
+- UI – Rest/Sleep/Wake Routine Layout is now tabular in order to separate new rest and sleep/wake
+- UI/UX –Section help moved to align with Section Title
+- UI – Activity List – Updated Colour Codes to filled squares
+
+
+### Fixed
+- Minor – App Crash if alarm tone is not selected
+- Minor – App Crash when opening intro video 2
+
+
+## [0.0.2] – 2018-11-16
 ### Added
 - Functionality - Rest/Sleep Planner
     - Add Alarm
