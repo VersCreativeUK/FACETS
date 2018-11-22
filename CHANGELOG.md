@@ -40,13 +40,16 @@ Security in case of vulnerabilities.
 ## [Unreleased] [0.0.3] (Due 2018-11-29)
 ### Added
 - Functionality/UI – New Dashboard FloatingActionButton and Add Menu
+- Logic – Added ButterKnife
+- UI – TextToSpeech UI
 
 ### Changed
 - UI – Updated View Activity Layout
+- UI – Updated Login Design and Layout
 
 ## [0.0.2a] – 2018-11-21
 ### Added
-- Functionality/UX – Text to Speech
+- Functionality/UX – TextToSpeech
 - UX – Add Alarm Validation
 
 ### Changed
