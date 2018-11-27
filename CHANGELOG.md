@@ -9,43 +9,53 @@ Security in case of vulnerabilities.
 
 ## [Scoped]
 - Functionality - Dynamic content locking based on FACETS commencement date
-- UI/UX/Functionality - First time setup flows
 - UI/Functionality - Activity Diary Reporting
 - Logic – Migrate existing “guest” entries to user on login/register
 - UI – Heatmaps
 - Functionality - DarkSky API (Retrofit)
 - Logic/Functionality – Alarms vs. Notifications (Rest/Sleep/Wake Planner)
 - UI – New/Alternative Colour Scheme
+- Logic – Update Existing Fragments & Activities to ButterKnife Binding
+- JavaDocs & Documentation
 
 
 ## [Upcoming] (Next Release)
 - Functionality - Activity Diary Notifications
 - UI/Functionality - Activity Diary Add Additional Information
     - Symptoms (Shopping List)
-- UI – Add app icon to AlarmActivity
 - UI/Functionality – Copy Activity
 - UI/Functionality – View Alarm
-- UI/Functionality – Edit Alarm
-- UI – Dynamic Dashboard “Welcome Icon”
 - Functionality – Develop Dashboard Items
+- UI/UX – Full Functional Onboarding and Post-Registration
 
 
 ## [Open Bugs]
-- [#9](https://github.com/VersCreativeUK/FACETS/issues/9) Functionality – Issues with Alarms duplicating when being created and overlapping
 - [#10](https://github.com/VersCreativeUK/FACETS/issues/10) Functionality – Activities added between 12AM – 1AM are not displayed
 - [#11](https://github.com/VersCreativeUK/FACETS/issues/11) Functionality – Issues with Alarms being removed when device is rebooted
 - [#12](https://github.com/VersCreativeUK/FACETS/issues/12) UI – Navigation is not updated correctly when navigating “up” (back)
-- [#13](https://github.com/VersCreativeUK/FACETS/issues/13) UI/Functionality – Missing Username on “admin” signup
+
 
 ## [Unreleased] [0.0.3] (Due 2018-11-29)
 ### Added
 - Functionality/UI – New Dashboard FloatingActionButton and Add Menu
 - Logic – Added ButterKnife
 - UI – TextToSpeech UI
+- UI/Functionality – Edit Alarm
+- UI/UX – Basic Onboarding and Post-Registration
+
 
 ### Changed
 - UI – Updated View Activity Layout
 - UI – Updated Login Design and Layout
+- UI – Updated AlarmActivity Layout
+- UI – Dynamic Dashboard “Welcome Icon”
+- UX/UI – Updated navigation layout
+
+
+### Fixed
+- [#9](https://github.com/VersCreativeUK/FACETS/issues/9) Functionality – Issues with Alarms duplicating when being created and overlapping
+- [#13](https://github.com/VersCreativeUK/FACETS/issues/13) UI/Functionality – Missing Username on “admin” signup
+
 
 ## [0.0.2a] – 2018-11-21
 ### Added
@@ -57,7 +67,6 @@ Security in case of vulnerabilities.
 - UI – Rest/Sleep/Wake Routine Layout is now tabular in order to separate new rest and sleep/wake
 - UI/UX – Section help moved to align with Section Title
 - UI – Activity List – Updated Colour Codes to filled squares
-
 
 ### Fixed
 - Minor – App Crash if alarm tone is not selected
@@ -109,4 +118,3 @@ Security in case of vulnerabilities.
 ### Added
 - Initial Activity Diary
 - Initial Navigation
-
