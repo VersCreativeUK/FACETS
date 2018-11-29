@@ -34,14 +34,17 @@ Security in case of vulnerabilities.
 - [#11](https://github.com/VersCreativeUK/FACETS/issues/11) Functionality – Issues with Alarms being removed when device is rebooted
 - [#12](https://github.com/VersCreativeUK/FACETS/issues/12) UI – Navigation is not updated correctly when navigating “up” (back)
 
+## [Unreleased]
+- TBD
 
-## [Unreleased] [0.0.3] (Due 2018-11-29)
+## [0.0.3]
 ### Added
 - Functionality/UI – New Dashboard FloatingActionButton and Add Menu
 - Logic – Added ButterKnife
 - UI – TextToSpeech UI
 - UI/Functionality – Edit Alarm
 - UI/UX – Basic Onboarding and Post-Registration
+- UI/UX – Coming Soon Activity to hold un-developed areas cleanly
 
 
 ### Changed
@@ -55,6 +58,7 @@ Security in case of vulnerabilities.
 ### Fixed
 - [#9](https://github.com/VersCreativeUK/FACETS/issues/9) Functionality – Issues with Alarms duplicating when being created and overlapping
 - [#13](https://github.com/VersCreativeUK/FACETS/issues/13) UI/Functionality – Missing Username on “admin” signup
+- Minor UI – Status Bar colouring to match current fragment’s theme
 
 
 ## [0.0.2a] – 2018-11-21
@@ -118,3 +122,4 @@ Security in case of vulnerabilities.
 ### Added
 - Initial Activity Diary
 - Initial Navigation
+
