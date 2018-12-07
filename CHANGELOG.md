@@ -6,7 +6,7 @@ Deprecated for soon-to-be removed features.
 Removed for now removed features.
 Fixed for any bug fixes.
 Security in case of vulnerabilities.
-
+ 
 ## [Scoped]
 - Functionality - Dynamic content locking based on FACETS commencement date
 - UI/Functionality - Activity Diary Reporting
@@ -17,26 +17,44 @@ Security in case of vulnerabilities.
 - UI – New/Alternative Colour Scheme
 - Logic – Update Existing Fragments & Activities to ButterKnife Binding
 - JavaDocs & Documentation
+- UI/Functionality - Activity Diary Add Additional Information
+    - Symptoms (Shopping List)
 
 
 ## [Upcoming] (Next Release)
 - Functionality - Activity Diary Notifications
-- UI/Functionality - Activity Diary Add Additional Information
-    - Symptoms (Shopping List)
 - UI/Functionality – Copy Activity
 - UI/Functionality – View Alarm
 - Functionality – Develop Dashboard Items
 - UI/UX – Full Functional Onboarding and Post-Registration
-
-
+ 
+ 
 ## [Open Bugs]
 - [#10](https://github.com/VersCreativeUK/FACETS/issues/10) Functionality – Activities added between 12AM – 1AM are not displayed
 - [#11](https://github.com/VersCreativeUK/FACETS/issues/11) Functionality – Issues with Alarms being removed when device is rebooted
 - [#12](https://github.com/VersCreativeUK/FACETS/issues/12) UI – Navigation is not updated correctly when navigating “up” (back)
+ 
+## [Unreleased] [0.0.4] (Due 2018-12-21)
+### Added
+- Improved error management when accessing database
 
-## [Unreleased]
-- TBD
+### Changed
+- Miscellaneous text changes
+- Numeric value added to Enjoyment Level
+- Dashboard updates for Alpha
+- Two step confirmation for “long-click” delete option on Alarms and Activities
+- Add Activity Layout Amended
+- Routing for “undeveloped” areas
+- Updated Dashboard Hero
+- Updated Activity List Layout
+- Updated Rest/Sleep/Wake Layout
+- Misc. descriptive changes
 
+### Fixed
+- [#14] (https://github.com/VersCreativeUK/FACETS/issues/14) Functionality – ChipGroup Selection issues
+- Minor – Scrolling content display bug for recap and help sections
+
+ 
 ## [0.0.3]
 ### Added
 - Functionality/UI – New Dashboard FloatingActionButton and Add Menu
@@ -45,38 +63,38 @@ Security in case of vulnerabilities.
 - UI/Functionality – Edit Alarm
 - UI/UX – Basic Onboarding and Post-Registration
 - UI/UX – Coming Soon Activity to hold un-developed areas cleanly
-
-
+ 
+ 
 ### Changed
 - UI – Updated View Activity Layout
 - UI – Updated Login Design and Layout
 - UI – Updated AlarmActivity Layout
 - UI – Dynamic Dashboard “Welcome Icon”
 - UX/UI – Updated navigation layout
-
-
+ 
+ 
 ### Fixed
 - [#9](https://github.com/VersCreativeUK/FACETS/issues/9) Functionality – Issues with Alarms duplicating when being created and overlapping
 - [#13](https://github.com/VersCreativeUK/FACETS/issues/13) UI/Functionality – Missing Username on “admin” signup
 - Minor UI – Status Bar colouring to match current fragment’s theme
-
-
+ 
+ 
 ## [0.0.2a] – 2018-11-21
 ### Added
 - Functionality/UX – TextToSpeech
 - UX – Add Alarm Validation
-
+ 
 ### Changed
 - UI – Rest/Sleep Planner has been renamed to Rest/Sleep/Wake Routine
 - UI – Rest/Sleep/Wake Routine Layout is now tabular in order to separate new rest and sleep/wake
 - UI/UX – Section help moved to align with Section Title
 - UI – Activity List – Updated Colour Codes to filled squares
-
+ 
 ### Fixed
 - Minor – App Crash if alarm tone is not selected
 - Minor – App Crash when opening intro video 2
-
-
+ 
+ 
 ## [0.0.2] – 2018-11-16
 ### Added
 - Functionality - Rest/Sleep Planner
@@ -97,8 +115,8 @@ Security in case of vulnerabilities.
 - UI/Functionality – Basic View Activity
 - Functionality – Basic Notifications
 - UI/Functionality – Edit Activity
-
-
+ 
+ 
 ### Changed
 - UI - Application base fonts
 - UI - Activity Diary item layout
@@ -106,8 +124,8 @@ Security in case of vulnerabilities.
 - UI – Updated Add Alarm Layout
 - UI - Updated Splash Screen
 - UX – Add Activity Validation
-
-
+ 
+ 
 ### Fixed
 - [#1](https://github.com/VersCreativeUK/FACETS/issues/1) - UI - Available date issues with ActivityDiary and CollapsibleCalendarView
 - [#2](https://github.com/VersCreativeUK/FACETS/issues/2) UI - Navigation Logic when switching between homework elements
@@ -117,9 +135,8 @@ Security in case of vulnerabilities.
 - [#6](https://github.com/VersCreativeUK/FACETS/issues/6) UI - Locked Item Functionality not displaying in menu & items dialog notification display
 - [#7](https://github.com/VersCreativeUK/FACETS/issues/7) UX - Scrolling Issues with SmileyRating implementation
 - [#8](https://github.com/VersCreativeUK/FACETS/issues/8) UI – Incorrect Theming for Snackbar
-
+ 
 ## [0.0.1] - 2018-10-31 (Initial Version)
 ### Added
 - Initial Activity Diary
 - Initial Navigation
-
