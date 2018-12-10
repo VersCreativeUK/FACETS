@@ -20,34 +20,38 @@ Security in case of vulnerabilities.
 - UI/Functionality - Activity Diary Add Additional Information
     - Symptoms (Shopping List)
 
-
 ## [Upcoming] (Next Release)
 - Functionality - Activity Diary Notifications
 - UI/Functionality – Copy Activity
 - UI/Functionality – View Alarm
 - Functionality – Develop Dashboard Items
 - UI/UX – Full Functional Onboarding and Post-Registration
- 
- 
+  
 ## [Open Bugs]
 - [#10](https://github.com/VersCreativeUK/FACETS/issues/10) Functionality – Activities added between 12AM – 1AM are not displayed
 - [#11](https://github.com/VersCreativeUK/FACETS/issues/11) Functionality – Issues with Alarms being removed when device is rebooted
 - [#12](https://github.com/VersCreativeUK/FACETS/issues/12) UI – Navigation is not updated correctly when navigating “up” (back)
- 
+
+
 ## [Unreleased] [0.0.4] (Due 2018-12-21)
 ### Added
 - Improved error management when accessing database
+- New Routing for “undeveloped” areas
 
 ### Changed
+- **BREAKING CHANGE** - Updated Rest/Sleep & Wake Routine
+    - New List Activity
+    - Updated Database Definition
+    - Updated Home Layout
+
 - Miscellaneous text changes
 - Numeric value added to Enjoyment Level
 - Dashboard updates for Alpha
 - Two step confirmation for “long-click” delete option on Alarms and Activities
-- Add Activity Layout Amended
-- Routing for “undeveloped” areas
+- Updated Add Activity Layout
 - Updated Dashboard Hero
 - Updated Activity List Layout
-- Updated Rest/Sleep/Wake Layout
+- Updated View Activity Layout
 - Misc. descriptive changes
 
 ### Fixed
@@ -140,3 +144,5 @@ Security in case of vulnerabilities.
 ### Added
 - Initial Activity Diary
 - Initial Navigation
+ 
+
