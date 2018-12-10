@@ -43,7 +43,6 @@ Security in case of vulnerabilities.
     - New List Activity
     - Updated Database Definition
     - Updated Home Layout
-
 - Miscellaneous text changes
 - Numeric value added to Enjoyment Level
 - Dashboard updates for Alpha
