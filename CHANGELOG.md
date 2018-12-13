@@ -22,7 +22,6 @@ Security in case of vulnerabilities.
 
 ## [Upcoming] (Next Release)
 - Functionality - Activity Diary Notifications
-- UI/Functionality – Copy Activity
 - UI/Functionality – View Alarm
 - Functionality – Develop Dashboard Items
 - UI/UX – Full Functional Onboarding and Post-Registration
@@ -35,11 +34,12 @@ Security in case of vulnerabilities.
 
 ## [Unreleased] [0.0.4] (Due 2018-12-21)
 ### Added
-- Improved error management when accessing database
-- New Routing for “undeveloped” areas
+- UX - Improved error management when accessing database
+- UX - New Routing for “undeveloped” areas
+- UI/Functionality – Copy Activity
 
 ### Changed
-- **BREAKING CHANGE** - Updated Rest/Sleep & Wake Routine
+- **BREAKING CHANGE** UI/Logic - Updated Rest/Sleep & Wake Routine
     - New List Activity
     - Updated Database Definition
     - Updated Home Layout
@@ -143,5 +143,3 @@ Security in case of vulnerabilities.
 ### Added
 - Initial Activity Diary
 - Initial Navigation
- 
-
