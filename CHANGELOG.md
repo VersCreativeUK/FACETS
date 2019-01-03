@@ -9,12 +9,9 @@ Security in case of vulnerabilities.
  
 ## [Scoped]
 - Functionality - Dynamic content locking based on FACETS commencement date
-- UI/Functionality - Activity Diary Reporting
 - Logic – Migrate existing “guest” entries to user on login/register
 - UI – Heatmaps
-- Functionality - DarkSky API (Retrofit)
 - Logic/Functionality – Alarms vs. Notifications (Rest/Sleep/Wake Planner)
-- UI – New/Alternative Colour Scheme
 - Logic – Update Existing Fragments & Activities to ButterKnife Binding
 - JavaDocs & Documentation
 - UI/Functionality - Activity Diary Add Additional Information
@@ -25,14 +22,27 @@ Security in case of vulnerabilities.
 - UI/Functionality – View Alarm
 - Functionality – Develop Dashboard Items
 - UI/UX – Full Functional Onboarding and Post-Registration
-  
+- UI/Functionality – Full Functional Activity Diary Reporting
+
 ## [Open Bugs]
 - [#10](https://github.com/VersCreativeUK/FACETS/issues/10) Functionality – Activities added between 12AM – 1AM are not displayed
 - [#11](https://github.com/VersCreativeUK/FACETS/issues/11) Functionality – Issues with Alarms being removed when device is rebooted
 - [#12](https://github.com/VersCreativeUK/FACETS/issues/12) UI – Navigation is not updated correctly when navigating “up” (back)
 
+## [Unreleased] [0.0.5] **Testing Version**
+### Added
+- UI/UX/Functionality - App Theming
+- UI – New/Alternative Colour Schemes
+- Functionality – DarkSky Weather API
 
-## [Unreleased] [0.0.4] (Due 2018-12-21)
+### Fixed
+- Minor – App Theming inconsistency
+
+## [0.0.4a] – 2018-12-21
+### Fixed
+- Minor UI - Analog Clock Sizing Ratio
+
+## [0.0.4]
 ### Added
 - UX - Improved error management when accessing database
 - UX - New Routing for “undeveloped” areas
@@ -42,7 +52,8 @@ Security in case of vulnerabilities.
 - **BREAKING CHANGE** UI/Logic - Updated Rest/Sleep & Wake Routine
     - New List Activity
     - Updated Database Definition
-    - Updated Home Layout
+    - Updated RSW Home Layout
+- UI/Functionality – Initial Activity Diary Reporting Layout
 - Miscellaneous text changes
 - Numeric value added to Enjoyment Level
 - Dashboard updates for Alpha
@@ -143,3 +154,4 @@ Security in case of vulnerabilities.
 ### Added
 - Initial Activity Diary
 - Initial Navigation
+ 
