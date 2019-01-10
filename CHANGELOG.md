@@ -16,6 +16,8 @@ Security in case of vulnerabilities.
 - JavaDocs & Documentation
 - UI/Functionality - Activity Diary Add Additional Information
     - Symptoms (Shopping List)
+- Rate my sleep option + Settings
+
 
 ## [Upcoming] (Next Release)
 - Functionality - Activity Diary Notifications
@@ -29,11 +31,20 @@ Security in case of vulnerabilities.
 - [#11](https://github.com/VersCreativeUK/FACETS/issues/11) Functionality – Issues with Alarms being removed when device is rebooted
 - [#12](https://github.com/VersCreativeUK/FACETS/issues/12) UI – Navigation is not updated correctly when navigating “up” (back)
 
-## [Unreleased] [0.0.5] **Testing Version**
+## [Unreleased] [0.0.5] **Initial Testing Version**
 ### Added
+- UI – Sleep Wake Pattern
 - UI/UX/Functionality - App Theming
 - UI – New/Alternative Colour Schemes
 - Functionality – DarkSky Weather API
+- UI – Initial Sleep Wake Pattern Setup
+
+### Changed
+- **BREAKING CHANGE** Logic – Updated Rest/Sleep & Wake Routine
+    - Updated Database, Adapter & Model Definitions
+        - RestSleepAlarm – Changed to RestPeriod
+        - SleepWakePattern – Added
+- UI – Rest/Sleep/Wake Routine Database Accesses
 
 ### Fixed
 - Minor – App Theming inconsistency
@@ -154,4 +165,3 @@ Security in case of vulnerabilities.
 ### Added
 - Initial Activity Diary
 - Initial Navigation
- 
