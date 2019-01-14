@@ -45,6 +45,9 @@ Security in case of vulnerabilities.
         - RestSleepAlarm – Changed to RestPeriod
         - SleepWakePattern – Added
 - UI – Rest/Sleep/Wake Routine Database Accesses
+- UI – Updated Activity Diary Home
+    - Updated Calendar view implemented to reduce thread load
+    - Updated Activity name view implemented to marquee (scroll) if a name overlaps
 
 ### Fixed
 - Minor – App Theming inconsistency
