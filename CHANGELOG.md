@@ -38,6 +38,7 @@ Security in case of vulnerabilities.
 - UI – New/Alternative Colour Schemes
 - Functionality – DarkSky Weather API
 - UI – Initial Sleep Wake Pattern Setup
+- UI – New custom font implemented [Krub]( https://fonts.google.com/specimen/Krub)
 
 ### Changed
 - **BREAKING CHANGE** Logic – Updated Rest/Sleep & Wake Routine
@@ -48,6 +49,7 @@ Security in case of vulnerabilities.
 - UI – Updated Activity Diary Home
     - Updated Calendar view implemented to reduce thread load
     - Updated Activity name view implemented to marquee (scroll) if a name overlaps
+- UI – Font Consistency
 
 ### Fixed
 - Minor – App Theming inconsistency
