@@ -179,3 +179,4 @@ Security in case of vulnerabilities.
 ### Added
 - Initial Activity Diary
 - Initial Navigation
+
