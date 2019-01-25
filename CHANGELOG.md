@@ -11,27 +11,30 @@ Security in case of vulnerabilities.
 - Functionality - Dynamic content locking based on FACETS commencement date
 - Logic – Migrate existing “guest” entries to user on login/register
 - UI – Heatmaps
-- Logic/Functionality – Alarms vs. Notifications (Rest/Sleep/Wake Planner)
 - Logic – Update Existing Fragments & Activities to ButterKnife Binding
 - JavaDocs & Documentation
 - UI/Functionality - Activity Diary Add Additional Information
     - Symptoms (Shopping List)
 - Rate my sleep option + Settings
+- UI/Functionality – Full Functional Activity Diary Reporting
+- UI/UX – Full Functional Onboarding and Post-Registration
+- Functionality – Dashboard
+- Functionality - Activity Diary Notifications
 
 
 ## [Upcoming] (Next Release)
-- Functionality - Activity Diary Notifications
 - UI/Functionality – View Alarm
-- Functionality – Develop Dashboard Items
-- UI/UX – Full Functional Onboarding and Post-Registration
-- UI/Functionality – Full Functional Activity Diary Reporting
+
 
 ## [Open Bugs]
 - [#10](https://github.com/VersCreativeUK/FACETS/issues/10) Functionality – Activities added between 12AM – 1AM are not displayed
 - [#11](https://github.com/VersCreativeUK/FACETS/issues/11) Functionality – Issues with Alarms being removed when device is rebooted
 - [#12](https://github.com/VersCreativeUK/FACETS/issues/12) UI – Navigation is not updated correctly when navigating “up” (back)
+- [#17](https://github.com/VersCreativeUK/FACETS/issues/17) UI – Success UI issues
+- [#N/A] Logic – Rest Periods updates do not propagate unless deleted and recreated
 
-## [Unreleased] [0.0.5] **Initial Testing Version**
+
+## [0.0.5]
 ### Added
 - UI – Sleep Wake Pattern
 - UI/UX/Functionality - App Theming
@@ -39,6 +42,8 @@ Security in case of vulnerabilities.
 - Functionality – DarkSky Weather API
 - UI – Initial Sleep Wake Pattern Setup
 - UI – New custom font implemented [Krub]( https://fonts.google.com/specimen/Krub)
+- UI – New “Quick View” dialog when long clicking an Activity
+- UX – Notification Logic
 
 ### Changed
 - **BREAKING CHANGE** Logic – Updated Rest/Sleep & Wake Routine
@@ -49,10 +54,14 @@ Security in case of vulnerabilities.
 - UI – Updated Activity Diary Home
     - Updated Calendar view implemented to reduce thread load
     - Updated Activity name view implemented to marquee (scroll) if a name overlaps
-- UI – Font Consistency
 
+### Removed
+- Logic – Redundant Classes
+ 
 ### Fixed
-- Minor – App Theming inconsistency
+- Minor - UI – Font Consistency
+- Minor – UX - App Theming inconsistency
+- Minor – UX – Activity List Custom Date Picker now has future dates disabled
 
 ## [0.0.4a] – 2018-12-21
 ### Fixed
@@ -81,7 +90,7 @@ Security in case of vulnerabilities.
 - Misc. descriptive changes
 
 ### Fixed
-- [#14] (https://github.com/VersCreativeUK/FACETS/issues/14) Functionality – ChipGroup Selection issues
+- [#14](https://github.com/VersCreativeUK/FACETS/issues/14) Functionality – ChipGroup Selection issues
 - Minor – Scrolling content display bug for recap and help sections
 
  
