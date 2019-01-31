@@ -8,17 +8,17 @@ assignees: ''
 ---
 
 **Issue Description**
-A clear and concise description of what the issue is.
+<!-- Please provide a description of what happened, the problem you encountered or the unexpected behaviour you ran into. -->
 
 **Steps to Reproduce**
-Steps to reproduce the behaviour:
+<!-- Please detail the steps you performed to reproduce the crash, problem or unexpected behaviour: -->
 1. Go to '...'
 2. Click on '....'
 3. Scroll down to '....'
 4. See error
 
 **Expected Behaviour**
-A clear and concise description of what you expected to happen.
+<!-- Please provide a description of what you expected to happen -->
 
 **Screenshots (Optional)**
-If applicable, add screenshots to help explain your problem.
+<!-- If applicable, add screenshots to help explain your problem. -->
