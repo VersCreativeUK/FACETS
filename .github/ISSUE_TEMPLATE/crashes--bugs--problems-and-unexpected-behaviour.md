@@ -7,6 +7,9 @@ assignees: ''
 
 ---
 
+**Application Version**
+<!-- Please provide the version number of the application you are using (e.g. 0.0.5) -->
+
 **Issue Description**
 <!-- Please provide a description of what happened, the problem you encountered or the unexpected behaviour you ran into. -->
 
