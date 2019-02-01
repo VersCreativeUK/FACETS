@@ -3,7 +3,7 @@ name: Crashes, Bugs, Problems and Unexpected Behaviour
 about: Report a crash, bug, problem or unexpected behaviour
 title: "[ISSUE]"
 labels: 'Status: in_review, Type: bug'
-assignees: ''
+assignees: davcpas1234
 
 ---
 

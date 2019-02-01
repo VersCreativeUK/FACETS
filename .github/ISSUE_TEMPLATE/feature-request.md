@@ -3,7 +3,7 @@ name: Feature Request
 about: Suggest an feature or idea for this project
 title: "[REQUEST]"
 labels: 'Status: in_review, Type: enhancement'
-assignees: ''
+assignees: davcpas1234
 
 ---
 
