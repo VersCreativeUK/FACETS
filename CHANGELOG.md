@@ -19,6 +19,7 @@ Security in case of vulnerabilities.
 - UI/UX – Full Functional Onboarding and Post-Registration
 - Functionality – Dashboard
 - Functionality - Activity Diary Notifications
+- Logic – Reduce layout files for help and recap to 2 templates and then populate text via java not xml
 
 
 ## [Upcoming] (Next Release)
@@ -32,13 +33,27 @@ Security in case of vulnerabilities.
 - [#N/A] Logic – Rest Periods updates do not propagate unless deleted and recreated
 
 
-## [Unreleased] [0.0.6]
+## [Unreleased] - [0.1.0]
 ### Added
 - Goal Planner
     - Home, List, Swipe to Refresh and Tabbed Layouts
     - DB Logic
     - Add Logic
     - View Goal
+    - Help & Recap Sections
+- Keep on Track Planner
+    - Help & Recap Sections
+
+### Fixed
+- [#17](https://github.com/VersCreativeUK/FACETS/issues/17) UI – Success UI issues
+- [#19](https://github.com/VersCreativeUK/FACETS/issues/19) Dashboard FloatingActionButton Erroneous Display Issue
+- [#22](https://github.com/VersCreativeUK/FACETS/issues/22) Missing Rest Period Summary Items
+- [#23](https://github.com/VersCreativeUK/FACETS/issues/23) Major - View Activity IllegalStateException
+- [#25](https://github.com/VersCreativeUK/FACETS/issues/25) Major - NumberFormatException on Custom Duration Rest Period entry
+- [#NA] Multiple issues with Heatmap display
+
+## [0.0.6] - 2019-02-05
+### Added
 - Initial Heatmap Functionality 
 - [#20](https://github.com/VersCreativeUK/FACETS/issues/20) – Silent Reminder Option
 
@@ -56,9 +71,7 @@ Security in case of vulnerabilities.
 - [#25](https://github.com/VersCreativeUK/FACETS/issues/25) Major - NumberFormatException on Custom Duration Rest Period entry
 - [#NA] Multiple issues with Heatmap display
 
-### Removed
-
-## [0.0.5]
+## [0.0.5] - 2019 01-26
 ### Added
 - UI – Sleep Wake Pattern
 - UI/UX/Functionality - App Theming
