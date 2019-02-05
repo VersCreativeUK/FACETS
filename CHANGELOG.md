@@ -29,7 +29,6 @@ Security in case of vulnerabilities.
 - [#10](https://github.com/VersCreativeUK/FACETS/issues/10) Functionality – Activities added between 12AM – 1AM are not displayed
 - [#11](https://github.com/VersCreativeUK/FACETS/issues/11) Functionality – Issues with Alarms being removed when device is rebooted
 - [#12](https://github.com/VersCreativeUK/FACETS/issues/12) UI – Navigation is not updated correctly when navigating “up” (back)
-- [#17](https://github.com/VersCreativeUK/FACETS/issues/17) UI – Success UI issues
 - [#N/A] Logic – Rest Periods updates do not propagate unless deleted and recreated
 
 
@@ -50,6 +49,7 @@ Security in case of vulnerabilities.
 - UX – Dashboard “SpeedDial” FloatingActionButton items are now dynamic depending on locked content
 
 ### Fixed
+- [#17](https://github.com/VersCreativeUK/FACETS/issues/17) UI – Success UI issues
 - [#19](https://github.com/VersCreativeUK/FACETS/issues/19) Dashboard FloatingActionButton Erroneous Display Issue
 - [#22](https://github.com/VersCreativeUK/FACETS/issues/22) Missing Rest Period Summary Items
 - [#23](https://github.com/VersCreativeUK/FACETS/issues/23) Major - View Activity IllegalStateException
