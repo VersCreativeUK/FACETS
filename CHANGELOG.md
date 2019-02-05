@@ -10,7 +10,6 @@ Security in case of vulnerabilities.
 ## [Scoped]
 - Functionality - Dynamic content locking based on FACETS commencement date
 - Logic – Migrate existing “guest” entries to user on login/register
-- UI – Heatmaps
 - Logic – Update Existing Fragments & Activities to ButterKnife Binding
 - JavaDocs & Documentation
 - UI/Functionality - Activity Diary Add Additional Information
@@ -41,7 +40,7 @@ Security in case of vulnerabilities.
     - DB Logic
     - Add Logic
     - View Goal
-- Initial Heatmap Functionality (Known Issues) 
+- Initial Heatmap Functionality 
 - [#20](https://github.com/VersCreativeUK/FACETS/issues/20) – Silent Reminder Option
 
 ### Changed
@@ -55,6 +54,7 @@ Security in case of vulnerabilities.
 - [#22](https://github.com/VersCreativeUK/FACETS/issues/22) Missing Rest Period Summary Items
 - [#23](https://github.com/VersCreativeUK/FACETS/issues/23) Major - View Activity IllegalStateException
 - [#25](https://github.com/VersCreativeUK/FACETS/issues/25) Major - NumberFormatException on Custom Duration Rest Period entry
+- [#NA] Multiple issues with Heatmap display
 
 ### Removed
 
