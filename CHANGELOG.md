@@ -17,7 +17,6 @@ Security in case of vulnerabilities.
 - Rate my sleep option + Settings
 - UI/Functionality – Full Functional Activity Diary Reporting
 - UI/UX – Full Functional Onboarding and Post-Registration
-- Functionality – Dashboard
 - Functionality - Activity Diary Notifications
 - Logic – Reduce layout files for help and recap to 2 templates and then populate text via java not xml
 
@@ -33,7 +32,7 @@ Security in case of vulnerabilities.
 - [#N/A] Logic – Rest Periods updates do not propagate unless deleted and recreated
 
 
-## [Unreleased] - [0.1.0]
+## [Unreleased] [0.1.0]
 ### Added
 - Goal Planner
     - Home, List, Swipe to Refresh and Tabbed Layouts
@@ -52,9 +51,10 @@ Security in case of vulnerabilities.
 - [#25](https://github.com/VersCreativeUK/FACETS/issues/25) Major - NumberFormatException on Custom Duration Rest Period entry
 - [#NA] Multiple issues with Heatmap display
 
-## [0.0.6] - 2019-02-05
+## [0.0.6] – 2019-02-05
 ### Added
 - Initial Heatmap Functionality 
+- Dynamic Dashboard Items
 - [#20](https://github.com/VersCreativeUK/FACETS/issues/20) – Silent Reminder Option
 
 ### Changed
@@ -71,7 +71,7 @@ Security in case of vulnerabilities.
 - [#25](https://github.com/VersCreativeUK/FACETS/issues/25) Major - NumberFormatException on Custom Duration Rest Period entry
 - [#NA] Multiple issues with Heatmap display
 
-## [0.0.5] - 2019 01-26
+## [0.0.5] – 2019-01-27
 ### Added
 - UI – Sleep Wake Pattern
 - UI/UX/Functionality - App Theming
