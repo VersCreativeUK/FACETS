@@ -43,14 +43,6 @@ Security in case of vulnerabilities.
 - Keep on Track Planner
     - Help & Recap Sections
 
-### Fixed
-- [#17](https://github.com/VersCreativeUK/FACETS/issues/17) UI – Success UI issues
-- [#19](https://github.com/VersCreativeUK/FACETS/issues/19) Dashboard FloatingActionButton Erroneous Display Issue
-- [#22](https://github.com/VersCreativeUK/FACETS/issues/22) Missing Rest Period Summary Items
-- [#23](https://github.com/VersCreativeUK/FACETS/issues/23) Major - View Activity IllegalStateException
-- [#25](https://github.com/VersCreativeUK/FACETS/issues/25) Major - NumberFormatException on Custom Duration Rest Period entry
-- [#NA] Multiple issues with Heatmap display
-
 ## [0.0.6] – 2019-02-05
 ### Added
 - Initial Heatmap Functionality 
