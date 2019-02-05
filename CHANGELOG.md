@@ -37,11 +37,12 @@ Security in case of vulnerabilities.
 ## [Unreleased] [0.0.6]
 ### Added
 - Goal Planner
-    - Home, List and Tabbed Layout
+    - Home, List, Swipe to Refresh and Tabbed Layouts
     - DB Logic
     - Add Logic
     - View Goal
-- Initial Heatmap Functionality (Known Issues)
+- Initial Heatmap Functionality (Known Issues) 
+- [#20](https://github.com/VersCreativeUK/FACETS/issues/20) – Silent Reminder Option
 
 ### Changed
 - UX - Rest Period Notification Text Change (Removal of “!”)
@@ -202,3 +203,4 @@ Security in case of vulnerabilities.
 ### Added
 - Initial Activity Diary
 - Initial Navigation
+
