@@ -28,7 +28,7 @@ exemptAssignees: true
 staleLabel: "auto-close"
 
 # Comment to post when marking as stale. Set to `false` to disable
-# markComment: false
+markComment: false
 
 # Comment to post when removing the stale label.
 # unmarkComment: >
