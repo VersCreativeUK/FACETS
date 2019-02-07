@@ -40,7 +40,9 @@ Security in case of vulnerabilities.
     - Add Logic
     - View Goal
     - Help & Recap Sections
+    - Keep on Track Plan linkages
 - Keep on Track Planner
+   
     - Help & Recap Sections
 
 ## [0.0.6] – 2019-02-05
