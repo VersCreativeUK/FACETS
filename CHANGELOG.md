@@ -45,6 +45,11 @@ Security in case of vulnerabilities.
    
     - Help & Recap Sections
 
+## [0.0.6-rc3] – 2019-02-07
+### Fixed
+- [#26](https://github.com/VersCreativeUK/FACETS/issues/26) Versioning not Updating
+- [#28](https://github.com/VersCreativeUK/FACETS/issues/28) RuntimeException for API23 and Below
+
 ## [0.0.6] – 2019-02-05
 ### Added
 - Initial Heatmap Functionality 
