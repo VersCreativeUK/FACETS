@@ -4,4 +4,4 @@ canPublishIssues: true
 canPublishPullRequests: false
 canPublishContributors: false
 canPublishStargazers: false
-canPublishCommits: true
+canPublishCommits: false
