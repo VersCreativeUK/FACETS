@@ -45,6 +45,22 @@ Security in case of vulnerabilities.
    
     - Help & Recap Sections
 
+## [0.0.6-rc4] – 2019-02-12
+### Changed
+- Condensed On-Boarding journey for testing users
+- [#38](https://github.com/VersCreativeUK/FACETS/issues/38) Changes to Heatmap colours and design
+- [#40](https://github.com/VersCreativeUK/FACETS/issues/40) Changes to custom rest period duration entry
+
+### Fixed
+- [#24] (https://github.com/VersCreativeUK/FACETS/issues/24) Get Temperature GPS request hang
+- [#28] (https://github.com/VersCreativeUK/FACETS/issues/28) Resource Crash on API 23 and below
+- [#33] (https://github.com/VersCreativeUK/FACETS/issues/33) Text overlap issues in Rest & Sleep Routine
+- [#34] (https://github.com/VersCreativeUK/FACETS/issues/34) Fixed ability to disable individual Rest period reminders
+- [#37] (https://github.com/VersCreativeUK/FACETS/issues/37) Added missing icon for silent notifications
+- [#39] (https://github.com/VersCreativeUK/FACETS/issues/39) Updated Sleep/Wake Pattern layout for smaller devices
+- [#41] (https://github.com/VersCreativeUK/FACETS/issues/41) Crash on Edit Rest Period
+- [#42] (https://github.com/VersCreativeUK/FACETS/issues/42) Updated Add Activity Layout for smaller devices
+
 ## [0.0.6-rc3] – 2019-02-07
 ### Fixed
 - [#26](https://github.com/VersCreativeUK/FACETS/issues/26) Versioning not Updating
