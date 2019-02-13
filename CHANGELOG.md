@@ -26,11 +26,7 @@ Security in case of vulnerabilities.
 
 
 ## [Open Bugs]
-- [#10](https://github.com/VersCreativeUK/FACETS/issues/10) Functionality – Activities added between 12AM – 1AM are not displayed
-- [#11](https://github.com/VersCreativeUK/FACETS/issues/11) Functionality – Issues with Alarms being removed when device is rebooted
-- [#12](https://github.com/VersCreativeUK/FACETS/issues/12) UI – Navigation is not updated correctly when navigating “up” (back)
-- [#N/A] Logic – Rest Periods updates do not propagate unless deleted and recreated
-
+See [Here](https://github.com/VersCreativeUK/FACETS/issues)
 
 ## [Unreleased] [0.1.0]
 ### Added
@@ -42,8 +38,18 @@ Security in case of vulnerabilities.
     - Help & Recap Sections
     - Keep on Track Plan linkages
 - Keep on Track Planner
-   
     - Help & Recap Sections
+
+## [Unreleased] [0.0.7]
+### Added
+- Swipe to Refresh Layouts to Activity Diary and Rest Period List
+
+### Changed
+- [#20](https://github.com/VersCreativeUK/FACETS/issues/20) REQUEST - Rest Period Reminder Option Layout
+
+### Fixed
+- [#10](https://github.com/VersCreativeUK/FACETS/issues/10) Missing Activities between 12AM-1AM
+- [#45](https://github.com/VersCreativeUK/FACETS/issues/45) Rest Period Updates not propagating
 
 ## [0.0.6-rc4] – 2019-02-12
 ### Changed
@@ -231,4 +237,3 @@ Security in case of vulnerabilities.
 ### Added
 - Initial Activity Diary
 - Initial Navigation
-
