@@ -43,6 +43,7 @@ See [Here](https://github.com/VersCreativeUK/FACETS/issues)
 ## [Unreleased] [0.0.7]
 ### Added
 - Swipe to Refresh Layouts to Activity Diary and Rest Period List
+- Crashlytics SDK
 
 ### Changed
 - [#20](https://github.com/VersCreativeUK/FACETS/issues/20) REQUEST - Rest Period Reminder Option Layout
