@@ -46,10 +46,16 @@ See [Here](https://github.com/VersCreativeUK/FACETS/issues)
 
 ### Changed
 - [#20](https://github.com/VersCreativeUK/FACETS/issues/20) REQUEST - Rest Period Reminder Option Layout
+- [#27](https://github.com/VersCreativeUK/FACETS/issues/27) REQUEST – Merge Toolkit Introduction and Help into 1 section
+- [#35](https://github.com/VersCreativeUK/FACETS/issues/35) REQUEST – Changes to Rest & Sleep/Wake Home and Visualisations
 
 ### Fixed
 - [#10](https://github.com/VersCreativeUK/FACETS/issues/10) Missing Activities between 12AM-1AM
+- **PARITAL** [#11](https://github.com/VersCreativeUK/FACETS/issues/11) Alarms not resetting on phone restart
+- [#12](https://github.com/VersCreativeUK/FACETS/issues/12) Navigation Drawer current selection not showing/updating on “Up”
 - [#45](https://github.com/VersCreativeUK/FACETS/issues/45) Rest Period Updates not propagating
+- [#48](https://github.com/VersCreativeUK/FACETS/issues/48) Erroneous Rest Period displaying on Resume
+
 
 ## [0.0.6-rc4] – 2019-02-12
 ### Changed
@@ -237,3 +243,4 @@ See [Here](https://github.com/VersCreativeUK/FACETS/issues)
 ### Added
 - Initial Activity Diary
 - Initial Navigation
+
