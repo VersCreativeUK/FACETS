@@ -15,7 +15,6 @@ Security in case of vulnerabilities.
 - UI/Functionality - Activity Diary Add Additional Information
     - Symptoms (Shopping List)
 - Rate my sleep option + Settings
-- UI/Functionality – Full Functional Activity Diary Reporting
 - UI/UX – Full Functional Onboarding and Post-Registration
 - Functionality - Activity Diary Notifications
 - Logic – Reduce layout files for help and recap to 2 templates and then populate text via java not xml
@@ -40,12 +39,19 @@ See [Here](https://github.com/VersCreativeUK/FACETS/issues)
 - Keep on Track Planner
     - Help & Recap Sections
 
-## [Unreleased] [0.0.7]
+### Changed
+- Activity Diary Reporting
+
+
+## [Unreleased] [0.0.7-rc1]
 ### Added
 - Swipe to Refresh Layouts to Activity Diary and Rest Period List
-- Crashlytics SDK
+- Performance & Crashlytics SDK
+- Updated App Icon
+- Today’s Heatmap Calculation
 
 ### Changed
+- Updated View Sleep Wake Routine Layout and Reminder Settings
 - [#20](https://github.com/VersCreativeUK/FACETS/issues/20) REQUEST - Rest Period Reminder Option Layout
 - [#27](https://github.com/VersCreativeUK/FACETS/issues/27) REQUEST – Merge Toolkit Introduction and Help into 1 section
 - [#35](https://github.com/VersCreativeUK/FACETS/issues/35) REQUEST – Changes to Rest & Sleep/Wake Home and Visualisations
