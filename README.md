@@ -1,1 +1,1 @@
-SEE CHANGELOG: [HERE](https://bit.ly/FACETS_CL/)
+SEE CHANGELOG: [HERE](https://bit.ly/FACETS_CL)
