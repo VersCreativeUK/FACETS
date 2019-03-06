@@ -38,12 +38,61 @@ See [Here](https://github.com/VersCreativeUK/FACETS/issues)
     - Keep on Track Plan linkages
 - Keep on Track Planner
     - Help & Recap Sections
+- Tutorial Functionality
 
 ### Changed
 - Activity Diary Reporting
 
+## [0.0.7-rc3] – 2019-03-06
+### Added
+- Placeholder Video Created to fill missing video views
+- Network check prior to retrieving temperature in case of no connection
+- Automated Temperature retrieval to Copy Activity
+- Close App confirmation dialog
+- Sleep Time added to Sleep Wake Routine
+- Unsaved changes dialog (part of #59) added to Sleep/Wake Routine
+- [#61](https://github.com/VersCreativeUK/FACETS/issues/61) [REQUEST] Placeholder for Rest/Sleep Summary when neither element contains data.
 
-## [Unreleased] [0.0.7-rc1]
+### Changed
+- MAJOR Updated Data Format for Sleep/Wake Pattern and new setup UI implemented
+- MAJOR Updated YoutubePlayerView dependency version to 10.0.1 from 8.0.1
+- Updated Edit Activity enjoyment rating texts
+- Updated implementation based on #28
+- Updated additional activity field descriptions
+- Miscellaneous updates to layout files to improve spacing
+- Miscellaneous text updates
+- Updated Recap and Help layouts (part of #52)
+- Updated miscellaneous dependencies to latest version
+- Heatmap end time updated to 12AM
+- Navigation Updates
+- Snackbars updated to Material Guidelines 2
+- [#56](https://github.com/VersCreativeUK/FACETS/issues/56) Change of Sleep/Wake Routine Icon
+- [#65](https://github.com/VersCreativeUK/FACETS/issues/65) Removal of “Remind Me” option when first creating a rest period
+- [#66](https://github.com/VersCreativeUK/FACETS/issues/66) Next Rest period not updating immediately in RSW Home
+
+### Fixed
+- [#N/A] Minor issue with FitChart where rest periods did not clear when Sleep/Wake pattern does not exist
+- [#53](https://github.com/VersCreativeUK/FACETS/issues/53) Crash caused by a Context reference bug when creating a rest period
+- [#54](https://github.com/VersCreativeUK/FACETS/issues/54) Activity Diary Fatigue level of 1 not re-populating to UI on Edit
+- [#55](https://github.com/VersCreativeUK/FACETS/issues/55) [REQUEST] Color state list change for bottom navigation
+- [#56](https://github.com/VersCreativeUK/FACETS/issues/56) Sleep Wake Icon Visibility
+- [#60](https://github.com/VersCreativeUK/FACETS/issues/60) [REQUEST] Remove Enabled Option when first creating a Sleep/Wake routine
+- [#64](https://github.com/VersCreativeUK/FACETS/issues/64) Improvements and Prevention of continued fragment backstack issues
+
+
+## [0.0.7-rc2] – 2019-02-26
+### Added
+- Initial Logic for Sleep/Wake Routine Reminders
+
+### Changed
+- Removed Logout functionality if user is a guest
+
+### Fixed
+- [#N/A] Crash on API 23 and below caused by formatting error in Activity Diary
+- [#N/A] Multiple fixes for Sleep/Wake Routine logic
+- [#28](https://github.com/VersCreativeUK/FACETS/issues/28) Drawable Runtime Crash for logo
+
+## [0.0.7-rc1] – 2019-02-25
 ### Added
 - Swipe to Refresh Layouts to Activity Diary and Rest Period List
 - Performance & Crashlytics SDK
@@ -71,14 +120,14 @@ See [Here](https://github.com/VersCreativeUK/FACETS/issues)
 - [#40](https://github.com/VersCreativeUK/FACETS/issues/40) Changes to custom rest period duration entry
 
 ### Fixed
-- [#24] (https://github.com/VersCreativeUK/FACETS/issues/24) Get Temperature GPS request hang
-- [#28] (https://github.com/VersCreativeUK/FACETS/issues/28) Resource Crash on API 23 and below
-- [#33] (https://github.com/VersCreativeUK/FACETS/issues/33) Text overlap issues in Rest & Sleep Routine
-- [#34] (https://github.com/VersCreativeUK/FACETS/issues/34) Fixed ability to disable individual Rest period reminders
-- [#37] (https://github.com/VersCreativeUK/FACETS/issues/37) Added missing icon for silent notifications
-- [#39] (https://github.com/VersCreativeUK/FACETS/issues/39) Updated Sleep/Wake Pattern layout for smaller devices
-- [#41] (https://github.com/VersCreativeUK/FACETS/issues/41) Crash on Edit Rest Period
-- [#42] (https://github.com/VersCreativeUK/FACETS/issues/42) Updated Add Activity Layout for smaller devices
+- [#24](https://github.com/VersCreativeUK/FACETS/issues/24) Get Temperature GPS request hang
+- [#28](https://github.com/VersCreativeUK/FACETS/issues/28) Resource Crash on API 23 and below
+- [#33](https://github.com/VersCreativeUK/FACETS/issues/33) Text overlap issues in Rest & Sleep Routine
+- [#34](https://github.com/VersCreativeUK/FACETS/issues/34) Fixed ability to disable individual Rest period reminders
+- [#37](https://github.com/VersCreativeUK/FACETS/issues/37) Added missing icon for silent notifications
+- [#39](https://github.com/VersCreativeUK/FACETS/issues/39) Updated Sleep/Wake Pattern layout for smaller devices
+- [#41](https://github.com/VersCreativeUK/FACETS/issues/41) Crash on Edit Rest Period
+- [#42](https://github.com/VersCreativeUK/FACETS/issues/42) Updated Add Activity Layout for smaller devices
 
 ## [0.0.6-rc3] – 2019-02-07
 ### Fixed
@@ -250,4 +299,3 @@ See [Here](https://github.com/VersCreativeUK/FACETS/issues)
 ### Added
 - Initial Activity Diary
 - Initial Navigation
-
