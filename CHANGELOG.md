@@ -45,23 +45,28 @@ See [Here](https://github.com/VersCreativeUK/FACETS/issues)
 - Activity Diary Reporting
 - Updated Dashboard Layout
 
-## [Unreleased] [0.0.7]
+## [0.0.7-rc4]
 ### Release Summary
 #### Added:
+- **MAJOR** - Temporary Privacy Policy added to resolve Google Play Policy Violation
 - Forgotten Password Option
 - Summary/Explanation for Sleep/Wake Pattern timings
 - `MainActivity` Tutorial and Logic
-- [#59](https://github.com/VersCreativeUK/FACETS/issues/59) Initial Logic for Unsaved confirmation dialogs
 - TTS added to Toolkit Help, page 1
-- Network check added to `YoutubePlayer` instances
+- Network check added to YoutubePlayer instances - [#59](https://github.com/VersCreativeUK/FACETS/issues/59) Initial Logic for Unsaved confirmation dialogs
+    - Activity Diary
+    - Rest Period
+    - Sleep/Wake Pattern (View and Edit)
 
 #### Changed:
 - [#57](https://github.com/VersCreativeUK/FACETS/issues/57) Rest & Sleep Routine updated to match user’s chosen theme.
+- [#68](https://github.com/VersCreativeUK/FACETS/issues/68) Updated Save UI and Button Alignment
+- Colour Scheme for Dashboard `AppBarLayout` has been amended to `appColorPrimary`
 - Updated Logos
-- Add Activity moved to `Activity`
+- Add Activity moved to `Activity` from `Fragment`
+- Add Rest Period moved to `Activity` from `Fragment`
 - Add Activity Comments Auto-Open on Add
 - Updated Toolkit Help Layout
-- Migration to new `MaterialButton` design guidelines
 - Updated reminder logic for Sleep/Wake Pattern to include beginning/end reminders
 - Updated Sleep/Wake Pattern visuals to include duration of wind up/down periods
 - Updated Sleep/Wake Pattern logic to handle wind up/down period duration that overlaps midnight
@@ -72,14 +77,24 @@ See [Here](https://github.com/VersCreativeUK/FACETS/issues)
 
 #### Fixed:
 - [#11](https://github.com/VersCreativeUK/FACETS/issues/11) Sleep Wake Pattern reminders on Device Boot 
+- [#69](https://github.com/VersCreativeUK/FACETS/issues/69) Rest Period Overlap Prevention
+- Rest Periods can no longer overlap another
+- Sleep/Wake Pattern can no longer overlap a Rest Period
+- Bug where activityName chip options did not populate field correctly
+- Bug where newly created Sleep/Wake patterns where reminders were forced to be Alarms
 - Reminders now default to 0 seconds on the minute (previously defaulted to set time seconds value)
     - i.e: if reminder was set up at 15:30:20 for 19:00, the reminder would set at 19:00:20 not 19:00:00
+- Sleep Wake Pattern reminders have been added to fix for #11 
 - Minor graphical calculation issue on Rest/Sleep/Wake timings
 - Minor intermittent visualisation issues with Rest/Sleep Summary
-- Crash on `DeviceBootReceiver` and `SleepWakePatternReceiver`
-- Cast Crash on Add Activity preparing for categories
-- Crash on `FieldUtils` when a null field is passed
+- Crash on Device Boot Receiver and `SleepWakePattern` Receiver
+- Crash on Add Activity
+- Crash on FieldUtils when a null field is passed
 - Bug and Clashes with `AlarmManager` request codes
+
+#### Removed: 
+- `android:navigationBarColor` style item removed
+- New to Toolkit Dashboard Item
 
 ## [0.0.7-rc3] – 2019-03-06
 ### Added
