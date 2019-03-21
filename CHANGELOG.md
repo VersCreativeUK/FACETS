@@ -45,7 +45,7 @@ See [Here](https://github.com/VersCreativeUK/FACETS/issues)
 - Activity Diary Reporting
 - Updated Dashboard Layout
 
-## [0.0.7-rc4]
+## [0.0.7-rc4] - 2019-03-20
 ### Release Summary
 #### Added:
 - **MAJOR** - Temporary Privacy Policy added to resolve Google Play Policy Violation
