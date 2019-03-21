@@ -46,8 +46,7 @@ See [Here](https://github.com/VersCreativeUK/FACETS/issues)
 - Updated Dashboard Layout
 
 ## [0.0.7-rc4] - 2019-03-20
-### Release Summary
-#### Added:
+### Added:
 - **MAJOR** - Temporary Privacy Policy added to resolve Google Play Policy Violation
 - Forgotten Password Option
 - Summary/Explanation for Sleep/Wake Pattern timings
@@ -58,7 +57,7 @@ See [Here](https://github.com/VersCreativeUK/FACETS/issues)
     - Rest Period
     - Sleep/Wake Pattern (View and Edit)
 
-#### Changed:
+### Changed:
 - [#57](https://github.com/VersCreativeUK/FACETS/issues/57) Rest & Sleep Routine updated to match user’s chosen theme.
 - [#68](https://github.com/VersCreativeUK/FACETS/issues/68) Updated Save UI and Button Alignment
 - Colour Scheme for Dashboard `AppBarLayout` has been amended to `appColorPrimary`
@@ -75,7 +74,7 @@ See [Here](https://github.com/VersCreativeUK/FACETS/issues)
 - Notification changes to adopt new Sleep/Wake Settings
 - Alarm Activity Updated to allow for Sleep/Wake alarm reminders
 
-#### Fixed:
+### Fixed:
 - [#11](https://github.com/VersCreativeUK/FACETS/issues/11) Sleep Wake Pattern reminders on Device Boot 
 - [#69](https://github.com/VersCreativeUK/FACETS/issues/69) Rest Period Overlap Prevention
 - Rest Periods can no longer overlap another
@@ -92,7 +91,7 @@ See [Here](https://github.com/VersCreativeUK/FACETS/issues)
 - Crash on FieldUtils when a null field is passed
 - Bug and Clashes with `AlarmManager` request codes
 
-#### Removed: 
+### Removed: 
 - `android:navigationBarColor` style item removed
 - New to Toolkit Dashboard Item
 
