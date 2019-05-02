@@ -14,8 +14,6 @@ Security in case of vulnerabilities.
 - Logic – Migrate existing “guest” entries to user on login/register
 - Logic – Update Existing Fragments & Activities to ButterKnife Binding
 - JavaDocs & Documentation
-- UI/Functionality - Activity Diary Add Additional Information
-    - Symptoms (Shopping List)
 - Rate my sleep option + Settings
 - UI/UX – Full Functional Onboarding and Post-Registration
 - Functionality - Activity Diary Notifications
@@ -40,12 +38,47 @@ See [Here](https://github.com/VersCreativeUK/FACETS/issues)
     - Help & Recap Sections
     - Keep on Track Plan linkages
 - Keep on Track Planner
+    - Fatigue Factors
+    - Priorities
+    - Goals (inc. DB references to Goal Planner)
     - Help & Recap Sections
-- Tutorial Functionality
 
 ### Changed
 - Activity Diary Reporting
 - Updated Dashboard Layout
+
+## [Unreleased] [0.0.8-rc1]
+### Added
+- MS Symptoms can be added to an Activity diary entry
+
+## [0.0.7] - 2019-03-29
+### Added
+- Toolkit Help to Context Menu
+- More UI Concept and substitute Toolbar Save action added to Add Activity (#68)[https://github.com/VersCreativeUK/FACETS/issues/68]
+- View RestPeriod Options Bottom Sheet (replaces outdated `Toast`)
+- Admin Function Settings Fragment Added to Settings (For **Supervised Testing Version** Only)
+    - Restart with Tutorial Settings Option
+
+### Changed
+- Add Activity "Activity Name" changed to "Activity Description" and Layout altered to improve flow
+- Sleep/Wake Pattern Activity Title (was "Routine")
+- Update Unsaved Changes Dialog wording
+- Aligned Unsaved Dialog Titles, Buttons and Content Text
+- Removed further references to "Alarm" when this should be "Rest Period"
+- Updated Crashlytics to handle non-fatal (caught) crashes
+
+### Fixed
+- BLOCKING REGRESSION issue with `Fragment` backstack (#72)[https://github.com/VersCreativeUK/FACETS/issues/72]
+- Activity context dialog remaining open erroneously when deleting from said dialog
+- `Fragment` `Context` attachment conflicts
+- Bug when editing a rest period the app was checking for rest period overlaps including itself forcing an error
+- Bug preventing a reminder tone being selected for a Rest Period
+- Bug where Reminder Tone did not clear when switching Reminder Type
+- Further bugs with AlarmManager request codes
+- Dashboard crash on Android 6
+- `RestSleepWakeReceiver` and `AlarmActivity` Crashes on `null` models
+- Multiple fixes for Custom Duration Crashes
+- Miscellanous Bugs found in testing
 
 ## [0.0.7-rc4] - 2019-03-20
 ### Added:
