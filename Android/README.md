@@ -54,7 +54,7 @@ See [Here](https://github.com/VersCreativeUK/FACETS/issues)
 ## [0.0.7] - 2019-03-29
 ### Added
 - Toolkit Help to Context Menu
-- More UI Concept and substitute Toolbar Save action added to Add Activity (#68)[https://github.com/VersCreativeUK/FACETS/issues/68]
+- More UI Concept and substitute Toolbar Save action added to Add Activity [#68](https://github.com/VersCreativeUK/FACETS/issues/68)
 - View RestPeriod Options Bottom Sheet (replaces outdated `Toast`)
 - Admin Function Settings Fragment Added to Settings (For **Supervised Testing Version** Only)
     - Restart with Tutorial Settings Option
@@ -68,7 +68,7 @@ See [Here](https://github.com/VersCreativeUK/FACETS/issues)
 - Updated Crashlytics to handle non-fatal (caught) crashes
 
 ### Fixed
-- BLOCKING REGRESSION issue with `Fragment` backstack (#72)[https://github.com/VersCreativeUK/FACETS/issues/72]
+- BLOCKING REGRESSION issue with `Fragment` backstack [#72](https://github.com/VersCreativeUK/FACETS/issues/72)
 - Activity context dialog remaining open erroneously when deleting from said dialog
 - `Fragment` `Context` attachment conflicts
 - Bug when editing a rest period the app was checking for rest period overlaps including itself forcing an error
