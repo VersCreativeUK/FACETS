@@ -49,6 +49,10 @@ See [Here](https://github.com/VersCreativeUK/FACETS/issues)
 
 ## [Unreleased] [0.0.8-rc1]
 ### Added
+- Notes
+    - Users can now add text based notes to the app to review later
+- Appointments
+    - Users can now add appointments to the application which can be added to the device's calendar
 - MS Symptoms can be added to an Activity diary entry
 
 ## [0.0.7] - 2019-03-29
