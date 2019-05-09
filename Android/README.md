@@ -54,6 +54,9 @@ See [Here](https://github.com/VersCreativeUK/FACETS/issues)
 - Appointments
     - Users can now add appointments to the application which can be added to the device's calendar
 - MS Symptoms can be added to an Activity diary entry
+- "How did you sleep?" notifications
+- "Did you take your Rest?" notification
+- Activity Diary Notifications
 
 ## [0.0.7] - 2019-03-29
 ### Added
