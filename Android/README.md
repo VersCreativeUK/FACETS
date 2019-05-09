@@ -14,9 +14,7 @@ Security in case of vulnerabilities.
 - Logic – Migrate existing “guest” entries to user on login/register
 - Logic – Update Existing Fragments & Activities to ButterKnife Binding
 - JavaDocs & Documentation
-- Rate my sleep option + Settings
 - UI/UX – Full Functional Onboarding and Post-Registration
-- Functionality - Activity Diary Notifications
 - Logic – Reduce layout files for help and recap to 2 templates and then populate text via java not xml
 
 
