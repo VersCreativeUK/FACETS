@@ -42,7 +42,7 @@ See [Here](https://github.com/VersCreativeUK/FACETS/issues)
 - Activity Diary Reporting (Limited)
 - Updated Dashboard Layout
 
-## [Unreleased] [0.0.8-rc4]
+## [0.0.8-rc4] - 2019-06-05
 ### Added
 - Goal Planner
     - Popup when no is selected under realistic to reassure the user
