@@ -48,6 +48,10 @@ See [Here](https://github.com/VersCreativeUK/FACETS/issues)
     - Popup when no is selected under realistic to reassure the user
 - Added additional form utility to better detect scroll distance if view heirachy is changed and display correct action (More or Save)
 
+### Changed
+- Amended Validation logic to prevent duplicate form error SnackBars from displaying
+- Updated UI Utilities
+
 ### Fixed
 - Goal Planner Realistic bugs
 
