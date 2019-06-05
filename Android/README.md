@@ -20,21 +20,18 @@ Security in case of vulnerabilities.
 
 ## [Upcoming] (Next Release)
 - UI/Functionality – View Alarm
+- UI/Functionality - View Note
+- UI/Functionality - View Appointment
+- UI/Functionality - New View Goal Layout
+- UI/Functionality - New View Activity Layout
 
 
 ## [Open Bugs]
 See [Here](https://github.com/VersCreativeUK/FACETS/issues)
 
-## [Unreleased] [0.1.0]
+## [Unreleased] [0.1.0-rc1]
 ### Added
 - Activity Diary Categories
-- Goal Planner
-    - Home, List, Swipe to Refresh and Tabbed Layouts
-    - DB Logic
-    - Add Logic
-    - View Goal
-    - Help & Recap Sections
-    - Keep on Track Plan linkages
 - Keep on Track Planner
     - Fatigue Factors
     - Priorities
@@ -42,10 +39,56 @@ See [Here](https://github.com/VersCreativeUK/FACETS/issues)
     - Help & Recap Sections
 
 ### Changed
-- Activity Diary Reporting
+- Activity Diary Reporting (Limited)
 - Updated Dashboard Layout
 
-## [Unreleased] [0.0.8-rc1]
+## [Unreleased] [0.0.8-rc4]
+### Added
+- Goal Planner
+    - Popup when no is selected under realistic to reassure the user
+- Added additional form utility to better detect scroll distance if view heirachy is changed and display correct action (More or Save)
+
+### Fixed
+- Goal Planner Realistic bugs
+
+## [0.0.8-rc3] - 2019-06-04
+### Added
+- Introduction of Google's `FlexboxLayout` to provide more flexible layouts on small screen sizes
+- Goal Planner functionality migrated from 0.1.0 to 0.0.8
+    - Home, List, Swipe to Refresh and Tabbed Layouts
+    - DB Logic
+    - Add Logic
+    - View Goal
+    - Help & Recap Sections
+    - Keep on Track Plan linkages
+
+### Changed
+- Add, Edit and View Goal Layouts updated based on latest spec
+- Continued adoption to new Recap Layout (Week 3)
+- Continued adoption to new "More" Save UI (Goal Planner)
+
+### Fixed
+- Refreshing Bug with Goal Display Fragments
+
+## [0.0.8-rc2] - 2019-05-22
+### Added
+- Notes
+    - Edit & Delete Functionality
+- Edit Appointment
+
+### Changed
+- Updated Toolbar and Navigation to align with iOS theme
+- Continued adoption to new "More" Save UI (Edit Rest Period)
+
+### Fixed
+- Resource/Context attachment crash (f/5cdd7185f8b88c296314d96c)
+- Pre-Launch Report identified bug where tutorial view identifier matches were lost (f/5cdd67d5f8b88c296313f5f9)
+- View Activity Crash when not entering Symptoms (f/5cdecd6df8b88c29632d9e6e)
+- Pre-Launch Report identified layout bugs
+- Activity Diary entry duplication bug
+- Removed erroneous "Add to calendar" option for Notes
+
+## [0.0.8-rc1] - 2019-05-15
 ### Added
 - Notes
     - Users can now add text based notes to the app to review later
@@ -55,6 +98,7 @@ See [Here](https://github.com/VersCreativeUK/FACETS/issues)
 - "How did you sleep?" notifications
 - "Did you take your Rest?" notification
 - Activity Diary Notifications
+- Tutorial Introduction and prompt
 
 ## [0.0.7] - 2019-03-29
 ### Added
