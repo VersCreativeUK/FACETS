@@ -2,10 +2,12 @@
 
 # FACETS
 
+## This repository has been archived and the project is no longer maintained.
+
 <table>
   <tr>
     <td>
-      <img src="http://www.logospng.com/images/119/android-vector-logos-logo-zone-119028.png" alt="Android" width="200"/>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Android_logo_2019.svg/1173px-Android_logo_2019.svg.png" alt="Android" width="200"/>
     </td>
     <td>
       <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/IOS_logo.svg" alt="iOS" width="200"/>
@@ -20,3 +22,4 @@
     </td>
   </tr>
 </table>
+
