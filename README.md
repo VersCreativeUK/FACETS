@@ -2,8 +2,6 @@
 
 # FACETS
 
-## This repository has been archived and the project is no longer maintained.
-
 <table>
   <tr>
     <td>
